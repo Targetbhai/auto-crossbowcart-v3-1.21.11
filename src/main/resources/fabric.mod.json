@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fpsdisplay",
+  "version": "${version}",
+  "name": "FPS Display",
+  "description": "Client-side sequence helper.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.fpsdisplay.client.FpsDisplayClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
